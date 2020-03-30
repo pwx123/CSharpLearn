@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Learn
 {
+    // 索引器
     class Indexer
     {
         private Dictionary<string, int> scoreDictionary = new Dictionary<string, int>();
