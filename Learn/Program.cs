@@ -50,6 +50,19 @@ namespace Learn
             Console.WriteLine("\n反射");
             var reflection = new Reflection();
             reflection.PrintValue();
+            //委托
+            Console.WriteLine("\n委托");
+            var delegateValue = new DelegateValue();
+            delegateValue.PrintValue();
+            //事件
+            Console.WriteLine("\n事件");
+            var eventValue = new EventValue();
+            eventValue.PrintValue();
+            // C# 6 特性
+            Console.WriteLine("\n C# 6 特性");
+            CSharpSix cSharpSix = new CSharpSix("peng", "wenxiang");
+            Console.WriteLine(cSharpSix.ToString());
+            Console.WriteLine(cSharpSix.AllCaps());
         }
     }
 }
